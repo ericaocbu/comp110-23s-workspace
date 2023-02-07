@@ -34,10 +34,9 @@ if (user_word[4] == user_character):
     character_count = character_count + 1
 
 if (character_count == 0):
-    print("No instance of " + user_character + " found in " + user_word)
+    print("No instances of " + user_character + " found in " + user_word)
 else:
     if (character_count > 1):
         print(str(character_count) + " instances of " + user_character + " found in " + user_word)
     else:
         print("1 instance of " + user_character + " found in " + user_word)
-
